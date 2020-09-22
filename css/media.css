@@ -1,0 +1,145 @@
+@media (max-width: 1199.98px) { 
+    
+}
+
+@media (max-width: 991.98px) { 
+    .container {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    .container {
+        max-width: 560px;
+    }
+    .skills__icons_container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    .container {
+        max-width: 300px;
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .header {
+        padding: 33px 0 80px;
+        margin-top: -20px;
+        position: relative;
+    }
+
+    .header__mainPhoto {
+        display: none;
+    }
+    
+    .header__mainPhotoPhone {
+        display: block;
+        width: 316px;
+        height: 478px;
+    }
+
+    .header__text {
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+    .header__text_item {
+        text-align: left;
+
+    }
+
+    .header__text h1 {
+        font-size: 47px;
+        line-height: 1.3;
+        margin-bottom: 23px;
+    }
+
+    .header__text p {
+        font-size: 16px;
+    }
+
+
+    .header__nav_adaptive {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: -30px;
+        min-width: 345px;
+        min-height: 710px;
+        text-align: left;
+        padding: 75px 0 55px;
+        font-size: 34px;
+        background: #fff;
+    }
+
+    .adaptive__list {
+        list-style: none;
+        display: block;
+    }
+
+    .adaptive__list_item {
+        margin-bottom: 68px;
+    }
+
+    .adaptive__link {
+        text-decoration: none;
+        color: #828282;
+        font-weight: 800;
+        position: relative;
+    }
+
+    .adaptive__link:hover {
+        color: #070707;
+    }
+
+
+    .hamburger {
+        outline: none;
+        display: inline-block;
+        position: absolute;
+        content: '';
+        top: 65px;
+        right: -32px;
+    }
+
+    .header__lang {
+        display: none;
+        position: absolute;
+        bottom: 115px;
+        right: -66px;
+        transform: rotate(90deg);
+    }
+
+    .header__lang_item, .header__lang_separator {
+        font-size: 34px;
+    }
+
+    .aboutMe {
+        padding: 90px 20px 60px;
+    }
+
+    .skills__icons img {
+        margin: 60px auto;
+    }
+
+    .portfolio {
+        padding: 44px 25px 96px;
+    }
+
+    .contacts__text {
+        margin: 50px auto 70px;
+        line-height: 1.7;
+    }
+
+    .contacts__button {
+        width: 255px;
+    }
+
+
+}

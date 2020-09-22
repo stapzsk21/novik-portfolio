@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="fonts/gilroy.css">
+    <title>Denis Novik</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header class="header">
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contacts</a></li>
+                </ul>
+            </nav>
+            <nav class="header__nav_adaptive">
+                <ul class="adaptive__list">
+                    <li class="adaptive__list_item"><a href="#" class="adaptive__link">Home</a></li>
+                    <li class="adaptive__list_item"><a href="#" class="adaptive__link">About</a></li>
+                    <li class="adaptive__list_item"><a href="#" class="adaptive__link">Skills</a></li>
+                    <li class="adaptive__list_item"><a href="#" class="adaptive__link">Portfolio</a></li>
+                    <li class="adaptive__list_item"><a href="#" class="adaptive__link">Contacts</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+                </span>
+            </button>
+
+            
+           
+            <div class="header__text">
+                <h1 class="header__text_item">Denis <br> Novik</h1>
+                <p class="header__text_item">UX | UI designer <br> 24 years old, Minsk</p>
+                <div class="header__lang">
+                    <a href="indexRu.html" id='ru' class="header__lang_item">RU</a>
+                    <span class="header__lang_separator">|</span>
+                    <a href="index.html" id='en' class="header__lang_item">ENG</a>
+                </div>
+            </div>
+
+            <img class="header__mainPhoto" src="img/mainBlock.png" alt="Denis Novik">
+            <img class="header__mainPhotoPhone" src="img/mainBlockPhone.png" alt="Denis Novik" >
+        </header>
+    </div>
+
+    <section class="aboutMe bg_grey">
+        <h2>About me</h2>
+        <div class="aboutMe__text">
+            <p>Hi, I'm Denis – UX/UI designer from Minsk. <br> I'm interested in design and everything connected with it</p>
+            <p>I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+            <p>Ready to implement excellent <br> projects with wonderful people</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section class="skills">
+            <h2>Skills</h2>
+            <p class="skills__p">I work in such programs as</p>
+            <div class="skills__icons_container">
+                <div class="skills__icons">
+                    <img src="img/iconPs.svg" alt="iconPs">
+                    <p class="skills__icons_p">Adobe  Photoshop</p>
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+                </div>
+                <div class="skills__icons">
+                    <img src="img/iconAi.svg" alt="iconPs">
+                    <p class="skills__icons_p">Adobe <br> Illustrator</p>
+                    <span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+                </div>
+                <div class="skills__icons">
+                    <img src="img/iconAe.svg" alt="iconPs">
+                    <p class="skills__icons_p">Adobe <br> After Effects</p>
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+                </div>
+                <div class="skills__icons">
+                    <img src="img/iconFigma.svg" alt="iconPs">
+                    <p class="skills__icons_p" >Figma</p>
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+                </div>
+            </div>
+            
+        </section>
+    </div>
+    
+    <section class="bg_grey ">
+        <div class="portfolio">
+            <h2>Portfolio</h2>
+            <img class="portfolio__img" src="img/portfolio.png" alt="">
+            <a href="" class="portfolio__link">Online fashion store - Homepage</a>
+            <img class="portfolio__img" src="img/reebok.png" alt="">
+            <a href="" class="portfolio__link">Reebok Store - Concept</a>
+            <img class="portfolio__img" src="img/braun.png" alt="">
+            <a href="" class="portfolio__link">Braun Landing Page - Concept</a>
+        </div>
+    </section>
+
+    <footer class="container">
+        <div class="contacts">
+            <h2>Contacts</h2>
+            <p class="contacts__text">Want to know more or just chat?You are welcome!</p>
+            <a href="#" class="contacts__button">Send message</a>
+            <div class="contacts__icons">
+                <img src="img/iconIn.svg" alt="">
+                <img src="img/iconInst.svg" alt="">
+                <img src="img/iconBe.svg" alt="">
+                <img src="img/iconBall.svg" alt="">
+            </div>
+            <p class="contacts__text footer_grey">Like me on LinkedIn, Instagram, Behance, Dribble</p>
+        </div>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
